@@ -12,8 +12,7 @@
                 "D:/software/LLVM/include",
                 "D:/software/LLVM/x86_64-w64-mingw32/include",
                 "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-                "E:/CWorkSpace/ProgramingAndDataStucture/C_ProgramingDesign",
-                "E:/CWorkSpace/ProgramingAndDataStucture/C_ProgramingDesign/ProgramingDesign_technique/AbstractDataType",
+                "E:/CWorkSpace/AlgorithmAndDataStructure",
                 "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1"
             ],
             "defines": [
