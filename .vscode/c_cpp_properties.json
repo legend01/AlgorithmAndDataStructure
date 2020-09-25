@@ -12,7 +12,7 @@
                 "D:/software/LLVM/include",
                 "D:/software/LLVM/x86_64-w64-mingw32/include",
                 "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-                "E:/CWorkSpace/AlgorithmAndDataStructure",
+                "E:/CWorkSpace/AlgorithmAndDataStructure/QuickSort",
                 "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1"
             ],
             "defines": [
@@ -32,10 +32,10 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            
             "compilerPath": "D:/software/LLVM/bin/gcc.exe",
             "cStandard": "c11",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4
