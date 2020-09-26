@@ -10,7 +10,13 @@ int main(int argc, char *argv[]){
         printf(" %d ", temp_array[i]);
     }
     printf("\n");
+    #if 0
     QuickSort(temp_array, 0, ArraySize(temp_array)-1);
+    #else
+    quicksort_struct qs_stru;
+    qs_stru = InitQuickSort();
+    qs_stru.qs_func(temp_array, 0, ArraySize(temp_array)-1);
+    #endif
     printf("[INFO] temp_array = ");
     for (int i = 0; i < ArraySize(temp_array); i++)
     {
