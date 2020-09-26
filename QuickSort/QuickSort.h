@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @version: 
+ * @Author: HLLI8
+ * @Date: 2020-09-25 08:56:17
+ * @LastEditors: HLLI8
+ * @LastEditTime: 2020-09-26 09:56:42
+ */
 #ifndef __QUICKSORT_H__
 #define __QUICKSORT_H__
 #define Maxsize 100

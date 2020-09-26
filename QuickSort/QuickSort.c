@@ -4,12 +4,13 @@
  * @Author: HLLI8
  * @Date: 2020-09-24 16:11:43
  * @LastEditors: HLLI8
- * @LastEditTime: 2020-09-26 09:06:19
+ * @LastEditTime: 2020-09-26 09:56:48
  */
 #include <stdlib.h>
-#define Quick_Choice1 1
+#define Quick_Choice2 1
+#define Quick_Choice1 0
 
-#ifdef Quick_Choice1
+#if Quick_Choice1
     void QuickSort(int arr[], int low, int high) {
         int first = low;
         int last = high;
@@ -32,7 +33,7 @@
         QuickSort(arr, first + 1, high);
     }
 #elif Quick_Choice2
-    int Paritition(int A[], int low, int high) {
+    int Partition(int A[], int low, int high) {
         int pivot = A[low];
         while (low < high) {
             while (low < high && A[high] >= pivot)
