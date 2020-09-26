@@ -2,11 +2,19 @@
 #include "QuickSort.h"
 #define Quick_Choice2 1
 #define Quick_Choice1 0
+#if 0
 quicksort_struct InitQuickSort(void){
     quicksort_struct QS_struct;
     QS_struct.qs_func = QuickSort;
     return QS_struct;
 }
+#else
+void InitQuickSort(int A[], int length){
+    quicksort_struct QS_struct;
+    QS_struct.qs_func = QuickSort;
+    QS_struct.qs_func(A, 0, length);
+}
+#endif
 #if Quick_Choice1
     void QuickSort(int arr[], int low, int high) {
         int first = low;

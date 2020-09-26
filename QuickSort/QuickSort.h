@@ -11,5 +11,9 @@ struct QuickSort_Stru
     QS_Func qs_func;
 };
 void QuickSort(int arr[], int low, int high);
-quicksort_struct InitQuickSort(void);
+
+//quicksort_struct InitQuickSort(void);
+
+void InitQuickSort(int A[], int length);
+
 #endif // __QUICKSORT_H__
