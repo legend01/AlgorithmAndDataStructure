@@ -1,0 +1,2 @@
+E:\CWorkSpace\AlgorithmAndDataStructure\QuickSort\x64\Debug\QuickSort.exe
+E:\CWorkSpace\AlgorithmAndDataStructure\QuickSort\x64\Debug\QuickSort.pdb

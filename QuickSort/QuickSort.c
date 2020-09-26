@@ -4,12 +4,12 @@
  * @Author: HLLI8
  * @Date: 2020-09-24 16:11:43
  * @LastEditors: HLLI8
- * @LastEditTime: 2020-09-25 11:35:14
+ * @LastEditTime: 2020-09-26 09:06:19
  */
 #include <stdlib.h>
 #define Quick_Choice1 1
 
-#ifdef Quick_Choice
+#ifdef Quick_Choice1
     void QuickSort(int arr[], int low, int high) {
         int first = low;
         int last = high;

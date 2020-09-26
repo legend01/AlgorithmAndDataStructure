@@ -1,18 +1,20 @@
 #include <stdio.h>
 #include "QuickSort.h"
+#include <string.h>
 
 int main(int argc, char *argv[]){
-    quicksort_struct QS;
-    QS.data[] = {3, 1, 11, 5, 8, 2, 0, 9, 13, 81};
-    for (uint8_t i = 0; i < ArraySize(QS.data); i++)
+    int temp_array[10] = {3, 1, 11, 5, 8, 2, 0, 9, 13, 81};
+    printf("[INFO] temp_array = ");
+    for (int i = 0; i < ArraySize(temp_array); i++)
     {
-        printf("[INFO] QS.data[] = %d", QS.data[i]);
+        printf(" %d ", temp_array[i]);
     }
     printf("\n");
-    QuickSort(QS.data, 0, ArraySize(QS.data));
-    for (uint8_t i = 0; i < ArraySize(QS.data); i++)
+    QuickSort(temp_array, 0, ArraySize(temp_array)-1);
+    printf("[INFO] temp_array = ");
+    for (int i = 0; i < ArraySize(temp_array); i++)
     {
-        printf("[INFO] QS.data[] = %d", QS.data[i]);
+        printf(" %d ", temp_array[i]);
     }
     printf("\n");
     return 0;

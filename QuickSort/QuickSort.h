@@ -8,5 +8,5 @@ struct QuickSort_Stru
 {
     int data[Maxsize];
 };
-
+void QuickSort(int arr[], int low, int high);
 #endif // __QUICKSORT_H__
