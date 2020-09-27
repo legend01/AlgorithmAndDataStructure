@@ -5,8 +5,10 @@
 
 
 int main(int argc, char *argv[]){
-    int temp_array[10] = {3, 1, 11, 5, 8, 2, 0, 9, 13, 81};
-    showArrayInf(temp_array, ArraySize(temp_array));
+    int Array1[] = {3, 1, 11, 5, 8, 2, 0, 9, 13, 81};
+    int Array2[] = {3, 5, 1, 34, 8, 23, 0, 45, 78, 93};
+    showArrayInf(Array1, ArraySize(Array1), GETNAME(Array1));
+    showArrayInf(Array2, ArraySize(Array2), GETNAME(Array2));
     #if 0
     QuickSort(temp_array, 0, ArraySize(temp_array)-1);
     #elif 0
@@ -14,11 +16,13 @@ int main(int argc, char *argv[]){
     qs_stru = InitQuickSort();
     qs_stru.qs_func(temp_array, 0, ArraySize(temp_array)-1);
     #else 
-    InitQuickSort(temp_array, ArraySize(temp_array)-1);
+    InitQuickSort(Array1, ArraySize(Array1)-1);
+    InitQuickSort(Array2, ArraySize(Array2)-1);
     // quicksort_struct QS_struct;
     // QS_struct.qs_func = QuickSort;
     // QS_struct.qs_func(temp_array, 0, ArraySize(temp_array)-1);
     #endif
-    showArrayInf(temp_array, ArraySize(temp_array));
+    showArrayInf(Array1, ArraySize(Array1), GETNAME(Array1));
+    showArrayInf(Array2, ArraySize(Array2), GETNAME(Array2));
     return 0;
 }
