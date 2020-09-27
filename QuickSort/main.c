@@ -2,6 +2,7 @@
 #include "QuickSort.h"
 #include <string.h>
 
+
 int main(int argc, char *argv[]){
     int temp_array[10] = {3, 1, 11, 5, 8, 2, 0, 9, 13, 81};
     printf("[INFO] temp_array = ");
