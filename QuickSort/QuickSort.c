@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "QuickSort.h"
-#define Quick_Choice2 1
+#define Quick_Choice2 0
 #define Quick_Choice1 0
 #if 0
 quicksort_struct InitQuickSort(void){
@@ -64,6 +64,49 @@ void InitQuickSort(int A[], int length){
         }
     }
 #else
-
+void QuickSort(int arr[], int low, int high){
+    int temp = 0;
+    int i=low, j=high;
+    if (low< high)
+    {
+        temp = arr[low];
+        while (i<j)
+        {
+            while (i<j && arr[j]>=temp) --j;
+            if (i<j){
+                arr[i] = arr[j];
+                ++i;
+            }
+            while (i<j && arr[i]<temp) ++i;
+            if (i<j){
+                arr[j] = arr[i];
+                --j;
+            }
+        }
+        arr[i] = temp;
+        QuickSort(arr, low, i-1);
+        QuickSort(arr, i+1, high);
+    }
+}
 
 #endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
