@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\ShowArray_Inc">
+      <UniqueIdentifier>{bed7bf20-7e43-489c-a279-0753b9d69467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ShowArray_Src">
+      <UniqueIdentifier>{d80b9b99-b007-4b28-b52c-f79e0a664f04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QuickSort.c">
@@ -20,6 +26,12 @@
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="showArray.h">
+      <Filter>头文件\ShowArray_Inc</Filter>
+    </ClCompile>
+    <ClCompile Include="showArray.c">
+      <Filter>源文件\ShowArray_Src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

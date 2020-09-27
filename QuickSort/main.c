@@ -1,16 +1,12 @@
 #include <stdio.h>
 #include "QuickSort.h"
+#include "showArray.h"
 #include <string.h>
 
 
 int main(int argc, char *argv[]){
     int temp_array[10] = {3, 1, 11, 5, 8, 2, 0, 9, 13, 81};
-    printf("[INFO] temp_array = ");
-    for (int i = 0; i < ArraySize(temp_array); i++)
-    {
-        printf(" %d ", temp_array[i]);
-    }
-    printf("\n");
+    showArrayInf(temp_array, ArraySize(temp_array));
     #if 0
     QuickSort(temp_array, 0, ArraySize(temp_array)-1);
     #elif 0
@@ -23,11 +19,6 @@ int main(int argc, char *argv[]){
     // QS_struct.qs_func = QuickSort;
     // QS_struct.qs_func(temp_array, 0, ArraySize(temp_array)-1);
     #endif
-    printf("[INFO] temp_array = ");
-    for (int i = 0; i < ArraySize(temp_array); i++)
-    {
-        printf(" %d ", temp_array[i]);
-    }
-    printf("\n");
+    showArrayInf(temp_array, ArraySize(temp_array));
     return 0;
 }
