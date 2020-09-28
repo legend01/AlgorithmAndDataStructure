@@ -1,0 +1,6 @@
+#ifndef __ARRAYINTERSECTION__
+#define __ARRAYINTERSECTION__
+
+
+
+#endif // __ARRAYINTERSECTION__

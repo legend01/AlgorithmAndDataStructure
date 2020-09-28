@@ -19,6 +19,12 @@
     <Filter Include="源文件\ShowArray_Src">
       <UniqueIdentifier>{d80b9b99-b007-4b28-b52c-f79e0a664f04}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\ArrayIntersection_Inc">
+      <UniqueIdentifier>{f8bff849-688b-44a9-b890-fc71ce290510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ArrayIntersection_Src">
+      <UniqueIdentifier>{3c39116d-9efa-4eb3-8f97-3ab6cd300151}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="QuickSort.c">
@@ -33,10 +39,16 @@
     <ClCompile Include="showArray.c">
       <Filter>源文件\ShowArray_Src</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayIntersection.c">
+      <Filter>源文件\ArrayIntersection_Src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuickSort.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayIntersection.h">
+      <Filter>头文件\ArrayIntersection_Inc</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

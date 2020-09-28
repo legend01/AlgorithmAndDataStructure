@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayIntersection.h" />
     <ClInclude Include="QuickSort.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayIntersection.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="QuickSort.c" />
     <ClCompile Include="showArray.c" />
