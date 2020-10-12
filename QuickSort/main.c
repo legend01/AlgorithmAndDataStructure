@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @version: 
+ * @Author: HLLI8
+ * @Date: 2020-09-25 14:03:55
+ * @LastEditors: HLLI8
+ * @LastEditTime: 2020-09-29 17:30:08
+ */
 #include <stdio.h>
 #include "QuickSort.h"
 #include "showArray.h"
@@ -24,5 +32,6 @@ int main(int argc, char *argv[]){
     #endif
     showArrayInf(Array1, ArraySize(Array1), GETNAME(Array1));
     showArrayInf(Array2, ArraySize(Array2), GETNAME(Array2));
+    ArrayIntersection(Array1, ArraySize(Array1), Array2, ArraySize(Array2));
     return 0;
 }
