@@ -1,0 +1,16 @@
+﻿  LongestCommonPrefix.c
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\LongestCommonPrefix.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\LongestCommonPrefix.h(5,1): warning C4005: “NULL”: 宏重定义
+D:\ProgramFile\VisualStudio2019\VC\Tools\MSVC\14.27.29110\include\vcruntime.h(235): message : 参见“NULL”的前一个定义
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\LongestCommonPrefix.c(7,1): warning C4047: “初始化”:“const LCP_handler”与“void (__cdecl *)(message *)”的间接级别不同
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\LongestCommonPrefix.c(29,24): warning C4013: “strlen”未定义；假设外部返回 int
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\LongestCommonPrefix.c(30,31): warning C4013: “malloc”未定义；假设外部返回 int
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\LongestCommonPrefix.c(33,11): warning C4013: “strcpy”未定义；假设外部返回 int
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\LongestCommonPrefix.c(63,30): warning C4013: “calloc”未定义；假设外部返回 int
+  main.c
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\LongestCommonPrefix.h(5,1): warning C4005: “NULL”: 宏重定义
+D:\ProgramFile\VisualStudio2019\VC\Tools\MSVC\14.27.29110\include\vcruntime.h(235): message : 参见“NULL”的前一个定义
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\main.c(12,28): warning C4047: “函数”:“const char *”与“char *[5]”的间接级别不同
+E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\main.c(12,27): warning C4024: “strlen”: 形参和实参 1 的类型不同
+  正在生成代码...
+  LongestCommonPrefix.vcxproj -> E:\CWorkSpace\AlgorithmAndDataStructure\LongestCommonPrefix\LongestCommonPrefix\Debug\LongestCommonPrefix.exe
