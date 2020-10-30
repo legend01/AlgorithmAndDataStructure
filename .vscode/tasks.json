@@ -23,26 +23,8 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "clang.exe build active file",
-			"command": "D:\\software\\LLVM\\bin\\clang.exe",
-			"args": [
-				"-g",
-				"${file}",
-				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"--debug"
-			],
-			"options": {
-				"cwd": "D:\\software\\LLVM\\bin"
-			},
-			"problemMatcher": [
-				"$gcc"
-			]
-		},
-		{
-			"type": "shell",
 			"label": "gcc.exe build active file",
-			"command": "D:/software/LLVM/bin/gcc.exe",
+			"command": "C:/WorkSoftSetup/minGW/bin/gcc.exe",
 			"args": [
 				"-g",
 				"${file}",
@@ -50,7 +32,7 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "D:/software/LLVM/bin"
+				"cwd": "C:/WorkSoftSetup/minGW/bin"
 			},
 			"problemMatcher": [
 				"$gcc"

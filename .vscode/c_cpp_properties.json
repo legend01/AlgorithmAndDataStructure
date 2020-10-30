@@ -5,15 +5,7 @@
             "intelliSenseMode": "clang-x64",
             "includePath": [
                 "${workspaceRoot}",
-                "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
-                "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
-                "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
-                "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-                "D:/software/LLVM/include",
-                "D:/software/LLVM/x86_64-w64-mingw32/include",
-                "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-                "E:/CWorkSpace/AlgorithmAndDataStructure/QuickSort",
-                "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1"
+                "C:/WorkSoftSetup/minGW/include",
             ],
             "defines": [
                 "_DEBUG",
@@ -23,16 +15,13 @@
             ],
             "browse": {
                 "path": [
-                    "D:/software/LLVM/x86_64-w64-mingw32/include",
-                    "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-                    "D:/software/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-                    "D:/software/LLVM/include/*",
+                    "C:/WorkSoftSetup/minGW/include",
                     "${workspaceRoot}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "compilerPath": "D:/software/LLVM/bin/gcc.exe",
+            "compilerPath": "C:/WorkSoftSetup/minGW/bin/gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "configurationProvider": "ms-vscode.cmake-tools"
