@@ -1,27 +1,23 @@
+/*
+ * @Description: 贪心算法
+ * @Author: HLLI8
+ * @Date: 2020-10-21 15:46:24
+ * @LastEditTime: 2020-11-01 17:13:54
+ * @LastEditors: HLLI8
+ */
 #include "BuyAndSellStocks.h"
 
 int maxProfit(int *prices, int pricesSize){
-    int i, j;
-    int price_value = 0;
-    int diff_value = 0;
+    int sum_value = 0;
 
-    for ( i = 0; i < pricesSize; i++)
+    for (int i = 0; i < pricesSize-1; i++)
     {
-        for ( j = 0; j < pricesSize; j++)
-        {
-            if((prices[j] - prices[i]) > diff_value){
-                diff_value = prices[j] - prices[i];
-            }
-            if(((prices[j] - prices[i]) <= diff_value) || (j+1)>=pricesSize){
-                i = j - 1;
-                price_value += diff_value;
-                diff_value = 0;
-                break;
-            }
+        if (prices[i + 1] > prices[i]){
+            sum_value += prices[i + 1] - prices[i];
         }
         
     }
-    return price_value;
+    return sum_value;
 }
 
 

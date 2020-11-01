@@ -1,2 +1,4 @@
 E:\CWorkSpace\AlgorithmAndDataStructure\BestTimeToBuyAndSellStocks\BuyAndSellStocks\Debug\BuyAndSellStocks.exe
 E:\CWorkSpace\AlgorithmAndDataStructure\BestTimeToBuyAndSellStocks\BuyAndSellStocks\Debug\BuyAndSellStocks.pdb
+C:\WorkSpace\CWorkSpace\AlgorithmAndDataStructure\BestTimeToBuyAndSellStocks\BuyAndSellStocks\Debug\BuyAndSellStocks.exe
+C:\WorkSpace\CWorkSpace\AlgorithmAndDataStructure\BestTimeToBuyAndSellStocks\BuyAndSellStocks\Debug\BuyAndSellStocks.pdb

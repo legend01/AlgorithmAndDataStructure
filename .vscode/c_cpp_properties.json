@@ -5,7 +5,7 @@
             "intelliSenseMode": "clang-x64",
             "includePath": [
                 "${workspaceRoot}",
-                "C:/WorkSoftSetup/minGW/include",
+                "C:/WorkSoftSetup/minGW/include"
             ],
             "defines": [
                 "_DEBUG",
