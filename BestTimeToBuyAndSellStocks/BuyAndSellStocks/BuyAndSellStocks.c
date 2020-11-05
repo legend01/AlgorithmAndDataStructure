@@ -2,7 +2,7 @@
  * @Description: 贪心算法
  * @Author: HLLI8
  * @Date: 2020-10-21 15:46:24
- * @LastEditTime: 2020-11-05 10:16:33
+ * @LastEditTime: 2020-11-05 10:34:29
  * @LastEditors: HLLI8
  */
 #include "BuyAndSellStocks.h"
@@ -36,6 +36,14 @@ static int maxProfit(int *prices, int pricesSize){
     return sum_value;
 }
 
+/**
+ * @description: 
+ * 解法二、贪心算法2
+ * 今天持股票 ：如果明天涨，继续持有不卖，如果明天跌，今天卖出，不持有
+ * 今天不持有股票： 如果明天涨，今天买入，如果明天跌，继续不持有
+ * @param {*}
+ * @return {*}
+ */
 static int maxProfit01(int *prices, int pricesSize){
     if(pricesSize<2){
         return 0;
