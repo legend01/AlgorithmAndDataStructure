@@ -4,7 +4,7 @@
  * @Author: HLLI8
  * @Date: 2020-10-12 17:04:44
  * @LastEditors: HLLI8
- * @LastEditTime: 2020-11-03 16:34:47
+ * @LastEditTime: 2020-11-05 10:17:46
  */
 #include <stdio.h>
 #include "BuyAndSellStocks.h"
@@ -17,7 +17,6 @@ int main(int argc, char *arg){
     message0.prices = Stock_Price;
     message0.pricesSize = ArraySize(Stock_Price);
     message0.print_logo = print_logo;
-    // int Profit = maxProfit(Stock_Price, ArraySize(Stock_Price));
     fun_entry(MaxProfit_call);
     
     return 0;

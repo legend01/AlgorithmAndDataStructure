@@ -2,7 +2,7 @@
  * @Description: 贪心算法
  * @Author: HLLI8
  * @Date: 2020-10-21 15:46:24
- * @LastEditTime: 2020-11-03 16:46:05
+ * @LastEditTime: 2020-11-05 10:16:33
  * @LastEditors: HLLI8
  */
 #include "BuyAndSellStocks.h"
@@ -12,14 +12,14 @@ maxProfit_pointer maxProfit_Array[] = { maxProfit_pack, maxProfit01_pack };
 
 int fun_entry(int index){
     if(index<0 || index>MaxProfit_max) return 0;
-    maxProfit_Array[index];
+    maxProfit_Array[index]();
     return 1;
 }
 
-static void maxProfit_pack(void){
+void maxProfit_pack(void){
     message0.print_logo(maxProfit(message0.prices, message0.pricesSize));
 }
-static void maxProfit01_pack(void){
+void maxProfit01_pack(void){
     message0.print_logo(maxProfit01(message0.prices, message0.pricesSize));
 }
 
