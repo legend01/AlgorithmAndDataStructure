@@ -21,9 +21,15 @@
     <ClCompile Include="Rotate.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="message.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Rotate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

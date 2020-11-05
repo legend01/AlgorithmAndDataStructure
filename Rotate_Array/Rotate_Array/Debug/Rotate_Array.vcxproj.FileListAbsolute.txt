@@ -1,0 +1,2 @@
+C:\WorkSpace\CWorkSpace\AlgorithmAndDataStructure\Rotate_Array\Rotate_Array\Debug\Rotate_Array.exe
+C:\WorkSpace\CWorkSpace\AlgorithmAndDataStructure\Rotate_Array\Rotate_Array\Debug\Rotate_Array.pdb
