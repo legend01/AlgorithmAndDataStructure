@@ -1,5 +1,6 @@
-﻿  main.c
-  message.c
+﻿  InsertSort.c
+C:\WorkSpace\CWorkSpace\AlgorithmAndDataStructure\RemoveElement\InsertSort.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  main.c
   removeElement.c
   正在生成代码...
   RemoveElement.vcxproj -> C:\WorkSpace\CWorkSpace\AlgorithmAndDataStructure\RemoveElement\Debug\RemoveElement.exe

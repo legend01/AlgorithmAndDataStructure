@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="排序算法">
+      <UniqueIdentifier>{f854c606-a565-4da9-bd41-efdc99d232f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="排序算法\头文件">
+      <UniqueIdentifier>{12c2fdf6-c60e-44bb-b636-2cd333dfa3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="排序算法\源文件">
+      <UniqueIdentifier>{eb71bad9-8650-4d4c-a678-acc3c9a24f36}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -24,6 +33,12 @@
     <ClCompile Include="message.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="InsertSort.c">
+      <Filter>排序算法\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryInsertSort.c">
+      <Filter>排序算法\源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="removeElement.h">
@@ -31,6 +46,12 @@
     </ClInclude>
     <ClInclude Include="message.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertSort.h">
+      <Filter>排序算法\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryInsertSort.h">
+      <Filter>排序算法\头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

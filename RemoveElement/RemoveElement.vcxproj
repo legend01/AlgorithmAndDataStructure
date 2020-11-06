@@ -139,11 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryInsertSort.c" />
+    <ClCompile Include="InsertSort.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="message.c" />
     <ClCompile Include="removeElement.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryInsertSort.h" />
+    <ClInclude Include="InsertSort.h" />
     <ClInclude Include="message.h" />
     <ClInclude Include="removeElement.h" />
   </ItemGroup>
