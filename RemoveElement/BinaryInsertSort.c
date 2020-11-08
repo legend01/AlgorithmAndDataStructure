@@ -2,11 +2,17 @@
  * @Description: 折半插入排序
  * @Author: HLLI8
  * @Date: 2020-11-06 16:19:00
- * @LastEditTime: 2020-11-06 16:34:19
+ * @LastEditTime: 2020-11-08 16:53:47
  * @LastEditors: HLLI8
  */
 #include "BinaryInsertSort.h"
 
+/**
+ * @description: 折半插入排序
+ * @Note:
+ * 时间复杂度： O(n^2)
+ * 空间复杂度：O(1)
+ */
 void HalfInsertSort(int* array, int array_size){
     for(int i=1;i<array_size;i++)
     {

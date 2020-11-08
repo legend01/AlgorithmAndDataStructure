@@ -2,11 +2,17 @@
  * @Description: 希尔算法
  * @Author: HLLI8
  * @Date: 2020-11-07 15:54:15
- * @LastEditTime: 2020-11-07 15:56:33
+ * @LastEditTime: 2020-11-08 16:55:09
  * @LastEditors: HLLI8
  */
 #include "ShellSort.h"
 
+/**
+ * @description:希尔排序
+ * @Note: 
+ * 时间复杂度：O(n^2)
+ * 空间复杂度：O(1) 
+ */
 void ShellSort(int arr[], int n)
 {
     int i, j, k;

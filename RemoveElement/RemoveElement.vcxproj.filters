@@ -39,6 +39,9 @@
     <ClCompile Include="BinaryInsertSort.c">
       <Filter>排序算法\源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ShellSort.c">
+      <Filter>排序算法\源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="removeElement.h">
@@ -51,6 +54,9 @@
       <Filter>排序算法\头文件</Filter>
     </ClInclude>
     <ClInclude Include="BinaryInsertSort.h">
+      <Filter>排序算法\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellSort.h">
       <Filter>排序算法\头文件</Filter>
     </ClInclude>
   </ItemGroup>
