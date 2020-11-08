@@ -2,7 +2,7 @@
  * @Description: 堆排序
  * @Author: HLLI8
  * @Date: 2020-11-08 21:09:38
- * @LastEditTime: 2020-11-08 21:40:02
+ * @LastEditTime: 2020-11-08 22:07:01
  * @LastEditors: HLLI8
  */
 #include "HeapSort.h"
@@ -31,6 +31,9 @@ static void Sift(int Arr[], int low, int high){ /* Arr[]是一棵完全二叉树
 
 /**
  * @description:堆排序函数 
+ * @note: 
+ * 时间复杂度：O(nlog2n)
+ * 空间复杂度：O(1)
  * */
 void HeapSort(int Arr[], int array_size){
     int i;
