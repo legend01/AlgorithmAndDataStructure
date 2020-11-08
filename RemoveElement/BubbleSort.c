@@ -2,7 +2,7 @@
  * @Description: 冒泡排序
  * @Author: HLLI8
  * @Date: 2020-11-08 17:33:53
- * @LastEditTime: 2020-11-08 17:47:54
+ * @LastEditTime: 2020-11-08 18:16:38
  * @LastEditors: HLLI8
  */
 #include "BubbleSort.h"
@@ -16,14 +16,14 @@
 void BubbleSort(int Arr[], int array_size){
     int i, j, flag;
     int temp;
-    for(i=n-1; i>=1; --i){
+    for(i=array_size-1; i>=1; --i){
         flag = 0; /* 变量flag用来标记排序是否发生交换 */
         for ( j = 1; j <= i; ++j)
         {
-            if(R[j-1] > R[j]){
-                temp = R[j];
-                R[j] = R[j-1];
-                R[j-1] = temp;
+            if(Arr[j-1] > Arr[j]){
+                temp = Arr[j];
+                Arr[j] = Arr[j-1];
+                Arr[j-1] = temp;
                 flag = 1; /* 如果没有发生交换,则flag=0,如果发生交换,flag=1 */
             }
             if(flag == 0){
