@@ -1,11 +1,11 @@
-/*
+﻿/*
  * @Description: 堆排序
  * @Author: HLLI8
  * @Date: 2020-11-08 21:09:38
  * @LastEditTime: 2020-11-08 21:40:02
  * @LastEditors: HLLI8
  */
-#inlcude "HeapSort.h"
+#include "HeapSort.h"
 
 /**
  * @description: 函数完成在数组Arr[low]到Arr[high]的范围内对在位置low上的节点进行调整

@@ -22,8 +22,8 @@ void SelectSort(int Arr[], int array_size){
         }
         /* 最小关键字与无序序列第一个关键字交换 */        
         temp = Arr[i];
-        Arr[i] = R[k];
-        R[k] = temp;
+        Arr[i] = Arr[k];
+        Arr[k] = temp;
     }
     
 }

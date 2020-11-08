@@ -42,6 +42,18 @@
     <ClCompile Include="ShellSort.c">
       <Filter>排序算法\源文件</Filter>
     </ClCompile>
+    <ClCompile Include="QuickSort.c">
+      <Filter>排序算法\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.c">
+      <Filter>排序算法\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSort.c">
+      <Filter>排序算法\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.c">
+      <Filter>排序算法\源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="removeElement.h">
@@ -57,6 +69,18 @@
       <Filter>排序算法\头文件</Filter>
     </ClInclude>
     <ClInclude Include="ShellSort.h">
+      <Filter>排序算法\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>排序算法\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>排序算法\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSort.h">
+      <Filter>排序算法\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.h">
       <Filter>排序算法\头文件</Filter>
     </ClInclude>
   </ItemGroup>
